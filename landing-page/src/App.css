@@ -1,0 +1,113 @@
+* {
+  margin: 0 auto;
+}
+
+.subBanner {
+  background-color: #1B713E;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+}
+
+.subBanner svg {
+  margin-right: 10px;
+}
+
+.subBanner img {
+  height: 60px;
+}
+
+.redes {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.redes :hover svg {
+  border-radius: 25%;
+  padding: 5px;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.content {
+  padding: 40px;
+  text-align: justify;
+  height: 100%;
+  min-width: 100wv;
+  color: #1B713E;
+}
+
+.content h1{
+  font-size: 60px;
+}
+
+.content h2{
+  text-align: center;
+}
+.content p {
+  font-size: 20px;
+}
+
+form {
+  background-color: #39B54A;
+  padding: 30px;
+  width: 450px;
+  min-height: 100%;
+  color: white;
+}
+
+.register h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.pie {
+  max-width: 1200px;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.pie img {
+  height: 45px;
+}
+
+button {
+  width: 100%;
+}
+
+.info {
+  max-width: 1200px;
+  align-items: center;
+}
+
+.info h1 {
+  color: #1B713E;
+  padding: 50px;
+  text-align: center;
+  font-size: 60px;
+}
+
+ul {
+  max-width: 20vh;
+  height: 20vh;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #1B713E;
+}
+
+.listas {
+  display: flex;
+  padding-bottom: 20px;
+}
